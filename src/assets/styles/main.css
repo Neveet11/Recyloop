@@ -1,0 +1,31 @@
+/* src/assets/styles/main.css */
+
+/* Estilo para los títulos de la sección */
+h2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.8rem;
+    color: #388e3c;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para los botones de la aplicación */
+  button {
+    background-color: #43a047;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #388e3c;
+  }
+  
+  /* Estilos para imágenes dentro de la aplicación */
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  

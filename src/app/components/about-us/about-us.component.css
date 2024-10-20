@@ -1,0 +1,60 @@
+.about-us {
+    position: relative;
+    background: url('/assets/images/v13_8700.png') center/cover no-repeat;
+    padding: 100px 20px;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Ajusta la opacidad para más o menos difuminado */
+    z-index: 1;
+  }
+  
+  .about-content {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .about-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-text {
+    max-width: 800px;
+    margin: 0 auto 40px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  .mission-vision {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .mission-vision h3 {
+    font-size: 1.8rem;
+    margin-top: 20px;
+  }
+  
+  .mission-vision p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  @media (max-width: 768px) {
+    .about-content h2 {
+      font-size: 2rem;
+    }
+  
+    .about-text, .mission-vision {
+      padding: 0 10px;
+    }
+  }
+  
